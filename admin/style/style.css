@@ -1,0 +1,17 @@
+body{
+margin:0;
+padding:0;}
+.header{
+	width:99%;
+	height: 243px;
+	border:1px solid black;
+	background-image: url(img/logo.png);
+}
+.logo
+{	
+	float:left;
+	background-image:url('../img/logo.png') 
+	height:243px;
+	width:173px;
+	
+}

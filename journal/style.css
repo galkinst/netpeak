@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    background: url(img/bg.jpg) #e8f5fd repeat-y center fixed;
+    font-family: 'Bad Script', cursive;
+    font-size:80%;
+
+}
+p{
+    margin-top: 0.1em; /* Отступ сверху */
+    margin-bottom: 0;
+}
+#empty
+{float:left;
+width:200px;
+    padding-right: 100px;
+}
+.month{
+    width:100px;
+    float:left;
+    margin-left: 200px;
+    margin-top: -20px;
+}
+.daydeg{
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    writing-mode: tb-rl;
+}
+.day{
+    float:top;
+    height:40px;
+    width:130px;
+    margin-top: 45px;
+
+    position: center;
+    margin-left: -10px;
+}
+.day_saturday{
+    float:top;
+    height:20px;
+    width:90px;
+    margin-top: 15px;
+
+    position: center;
+}
+
+.content{
+    margin-top: -38px;
+    width: 1100px;
+    height: 900px;
+    position: fixed;
+    margin-left: 75px;
+    overflow-y: hidden;
+
+}
+.header{
+    width:100%;
+    height: 50px;
+}
+.lesson{
+    height:150px;
+    width:80px;
+
+    float:left;
+    margin-left: 80px;
+    margin-top: -105px;
+}
+.homework{
+    float:left;
+    width:230px;
+    height: 140px;
+
+    margin-top: -102px;
+    margin-left:53px;
+}
+#monday{
+
+    float:left;
+    width: 450px;
+    height: 150px;
+    margin-top: 2px;
+    margin-left: 33px;
+}
+#tuesday{
+
+    float:left;
+    width: 450px;
+    height: 150px;
+    margin-top: 40px;
+    margin-left: 33px;
+
+}
+#wednesday{
+    float:left;
+    width: 450px;
+    height: 150px;
+    margin-top: -93px;
+    margin-left: 33px;}
+#thursday{
+    float:left;
+    width: 450px;
+    height: 150px;
+    margin-top: 2px;
+    margin-left: 115px;}
+#friday{
+    float:left;
+    width: 450px;
+    height: 150px;
+    margin-top: 39px;
+    margin-left: 113px;}
+#saturday{
+    float:left;
+    width: 450px;
+    height: 90px;
+    margin-top: 39px;
+    margin-left: 113px;}
+#sata
+{
+    margin-left: 120px;
+    margin-top: -70px;
+    float:left;
+    color:red;
+}
